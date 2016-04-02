@@ -1,0 +1,36 @@
+.jtabla{  
+    border-radius: 30px;
+    width: 100%;
+    color: red;
+    
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+
+
+.jtabla tr td {
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        display: block;
+    }
+    
+    .jtabla th {
+        display: none;
+    }
+    
+    .jtabla tr td {
+        position: relative;
+        padding-left: 20%;
+        text-align: left;
+    }
+    
+    .jtabla tr td::before {
+        left: 20%;
+        position: absolute;
+    }
+    
+}
