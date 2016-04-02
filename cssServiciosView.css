@@ -1,0 +1,109 @@
+#ejemplo{
+	background: rgba(0,0,0, .7);
+	width:100%;
+	color:white;
+}
+#espacio{
+		padding-left:17px;
+}
+.jtabla{  
+    border-radius: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.jtabla th {
+
+}
+
+.jtabla tr {
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+}
+
+.jtabla tr td {
+		padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+}
+
+@media screen and (max-width:800px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        display: block;
+    }
+    
+    .jtabla th {
+        display: none;
+    }
+    
+    .jtabla tr td {
+        position: relative;
+        padding-left: 10%;
+        text-align: left;
+    }
+    
+    .jtabla tr td::before {
+        left: 2%;
+        position: absolute;
+    }
+    .makingpit{
+    color: #fff;
+    z-index: 3;
+    white-space: nowrap;
+    transition: all 0s ease 0s;
+    min-height: 0px;
+    min-width: 0px;
+    line-height: 60px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing:20%;
+    font-size: 40px;
+    padding-left: 30%;
+    top: 40%;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);
+
+    font-family: Arial;
+}
+    
+.rw-words {
+
+         font-size: 20px;
+    padding-left: 30%;
+    top: 20%;
+
+    visibility: visible;
+    }
+/*
+    .rw-words-2{
+   font-size: 20px;
+    padding-left: 40%;
+    top: 20%;
+    visibility: visible;
+    }*/
+}
+@media screen and (max-width:500px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        display: block;
+    }
+    
+    .jtabla th {
+        display: none;
+    }
+    
+    .jtabla tr td {
+        position: relative;
+        padding-left: 10%;
+        text-align: left;
+    }
+    
+    .jtabla tr td::before {
+        left: 2%;
+        position: absolute;
+    }
+    
+}
