@@ -1,0 +1,42 @@
+.jtabla{  
+    border-radius: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.jtabla th {
+}
+
+.jtabla tr {
+}
+
+.jtabla tr td {
+}
+
+@media screen and (max-width:800px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        display: block;
+    }
+    
+    .jtabla th {
+        display: none;
+    }
+    
+    .jtabla tr td {
+        position: center;
+        /*padding-left: 2%;*/
+        text-align: justify;
+        
+    }
+    
+    .jtabla tr td::before {
+       /* left: 2%;*/
+        position: center;
+    }
+        .jtabla tr td ul {
+       
+        text-align: justify;
+    }
+    
+}

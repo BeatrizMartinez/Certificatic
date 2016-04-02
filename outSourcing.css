@@ -1,0 +1,33 @@
+.jtabla{  
+    border-radius: 10%;
+    width: 70%;
+   
+}
+
+@media screen and (max-width:800px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        display: block;
+         
+    }
+    
+    .jtabla th {
+        display: none;
+    }
+    
+    .jtabla tr td {
+    
+        /*padding-left: 2%;*/
+      
+        
+    }
+    
+    .jtabla tr td::before {
+ 		left: 20%;
+        position: left;
+    }
+        .jtabla tr td ul {
+        font-size: 16px;
+         text-align: justify;
+    }
+    
+}
